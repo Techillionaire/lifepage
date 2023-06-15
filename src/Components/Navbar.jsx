@@ -20,8 +20,15 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link active text-primary" aria-current="page" href="#">Home</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Properties</a>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul className="dropdown-menu ">
+                                <li><a className="dropdown-item" href="#">Lands</a></li>
+                                <li><a className="dropdown-item" href="#">Housing</a></li>
+                                <li><a className="dropdown-item" href="#">Investments</a></li>
+                            </ul>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,7 +39,7 @@ const Navbar = () => {
                                 <li><a className="dropdown-item" href="#">Clients</a></li>
                                 <li><hr className="dropdown-divider"/></li>
                                 <li><a className="dropdown-item" href="#">Commissions</a></li>
-                                <li><a className="dropdown-item" href="#">Investments</a></li>
+                                <li><a className="dropdown-item" href="#">Sales</a></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
