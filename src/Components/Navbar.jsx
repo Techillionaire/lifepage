@@ -29,11 +29,11 @@ const Navbar = () => {
                                 Portfolio
                             </a>
                             <ul className="dropdown-menu ">
-                                <li><Link className="dropdown-item" href="/recruits">Recruits</Link></li>
-                                <li><Link className="dropdown-item" href="#">Clients</Link></li>
+                                <li><Link className="dropdown-item" to="/recruits">Recruits</Link></li>
+                                <li><Link className="dropdown-item" to="/clients">Clients</Link></li>
                                 <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" href="#">Commissions</Link></li>
-                                <li><Link className="dropdown-item" href="#">Sales</Link></li>
+                                <li><Link className="dropdown-item" to="/commissions">Commissions</Link></li>
+                                <li><Link className="dropdown-item" to="sales">Sales</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">

@@ -3,6 +3,7 @@ import Register from './Pages/Register'
 import Login from './Pages/Login'
 import Home from './Components/Home/Home'
 import Products from './Components/Products/Products'
+import Team from './Components/Team/Team'
 import { Routes, Route } from 'react-router-dom'
 
 
