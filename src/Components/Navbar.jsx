@@ -29,7 +29,7 @@ const Navbar = () => {
                                 Portfolio
                             </a>
                             <ul className="dropdown-menu ">
-                                <li><Link className="dropdown-item" href="#">Recruits</Link></li>
+                                <li><Link className="dropdown-item" href="/recruits">Recruits</Link></li>
                                 <li><Link className="dropdown-item" href="#">Clients</Link></li>
                                 <li><hr className="dropdown-divider"/></li>
                                 <li><Link className="dropdown-item" href="#">Commissions</Link></li>
