@@ -1,4 +1,7 @@
 import React from 'react'
+import {FaSearch} from 'react-icons/fa'
+import Pagination from '../Pagination'
+import Navbar from '../Navbar'
 
 const Sales = () => {
   return (
@@ -22,37 +25,37 @@ const Sales = () => {
             <thead>
                 <tr>
                 <th scope="col">Description</th>
-                <th scope="col">Client</th>
-                <th scope="col" className='d-none d-md-block'>Reference</th>
+                <th scope="col" className='d-none d-md-table-cell'>Client</th>
+                <th scope="col" className='d-none d-md-table-cell'>Reference</th>
                 <th scope="col">Sale Value</th>
                 <th scope="col">Status</th>
-                <th scope="col">Date</th>
+                <th scope="col" className='d-none d-md-table-cell'>Date</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 <td>1.00 VALU PLOTS at RICHLAND EPE (Ketu-Epe)</td>
-                <td className='d-none d-md-block'>Mr Jonathan</td>
-                <td className='d-none d-md-block'>69K86357Y9-0023</td>
+                <td className='d-none d-md-table-cell'>Mr Jonathan</td>
+                <td className='d-none d-md-table-cell'>69K86357Y9-0023</td>
                 <td className=''>N1,200,000.00</td>
-                <td className='bg-success'>Payment completed</td>
-                <td className='d-none d-md-block'>June 19, 2023</td>
+                <td className='text-success' >Payment completed</td>
+                <td className='d-none d-md-table-cell'>June 19, 2023</td>
                 </tr>
                 <tr>
                 <td>1.00 VALU PLOTS at RICHLAND EPE (Ketu-Epe)</td>
-                <td className='d-none d-md-block'>Mr Jonathan</td>
-                <td className='d-none d-md-block'>69K86357Y9-0023</td>
+                <td className='d-none d-md-table-cell'>Mr Jonathan</td>
+                <td className='d-none d-md-table-cell'>69K86357Y9-0023</td>
                 <td className=''>N1,200,000.00</td>
-                <td className='bg-success'>Payment completed</td>
-                <td className='d-none d-md-block'>June 19, 2023</td>
+                <td className='text-danger' >Payment incomplete</td>
+                <td className='d-none d-md-table-cell'>June 19, 2023</td>
                 </tr>
                 <tr>
                 <td>1.00 VALU PLOTS at RICHLAND EPE (Ketu-Epe)</td>
-                <td className='d-none d-md-block'>Mr Jonathan</td>
-                <td className='d-none d-md-block'>69K86357Y9-0023</td>
+                <td className='d-none d-md-table-cell'>Mr Jonathan</td>
+                <td className='d-none d-md-table-cell'>69K86357Y9-0023</td>
                 <td className=''>N1,200,000.00</td>
-                <td className='bg-success'>Payment completed</td>
-                <td className='d-none d-md-block'>June 19, 2023</td>
+                <td className='text-success' >Payment completed</td>
+                <td className='d-none d-md-table-cell'>June 19, 2023</td>
                 </tr>
             </tbody>
         </table>

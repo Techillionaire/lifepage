@@ -33,7 +33,7 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/clients">Clients</Link></li>
                                 <li><hr className="dropdown-divider"/></li>
                                 <li><Link className="dropdown-item" to="/commissions">Commissions</Link></li>
-                                <li><Link className="dropdown-item" to="sales">Sales</Link></li>
+                                <li><Link className="dropdown-item" to="/sales">Sales</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
