@@ -25,7 +25,7 @@ const Team = () => {
             <thead>
                 <tr>
                 <th scope="col">Name</th>
-                <th scope="col">Email</th>
+                <th scope="col" className='d-none d-md-block'>Email</th>
                 <th scope="col">Level</th>
                 <th scope="col">Date</th>
                 </tr>
@@ -33,19 +33,19 @@ const Team = () => {
             <tbody>
                 <tr>
                 <td>Mr Jonathan</td>
-                <td>Jonathanjotham@gmail.com</td>
+                <td className='d-none d-md-block'>Jonathanjotham@gmail.com</td>
                 <td>Business Associate</td>
                 <td>June 19, 2023</td>
                 </tr>
                 <tr>
                 <td>Juwon Omoboye</td>
-                <td>juwonomoboye@gmail.com</td>
+                <td className='d-none d-md-block'>juwonomoboye@gmail.com</td>
                 <td>Company Advocate</td>
                 <td>June 19, 2023</td>
                 </tr>
                 <tr>
                 <td>Tony Njoku</td>
-                <td>Tonynjoku@gmail.com</td>
+                <td className='d-none d-md-block'>Tonynjoku@gmail.com</td>
                 <td>Business Associate</td>
                 <td>June 19, 2023</td>
                 </tr>

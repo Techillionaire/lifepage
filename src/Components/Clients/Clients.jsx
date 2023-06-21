@@ -25,7 +25,7 @@ const Clients = () => {
             <thead>
                 <tr>
                 <th scope="col">Name</th>
-                <th scope="col">Email</th>
+                <th scope="col" className='d-none d-md-block' >Email</th>
                 <th scope="col">Phone Number</th>
                 <th scope="col">Reference</th>
                 </tr>
@@ -33,19 +33,19 @@ const Clients = () => {
             <tbody>
                 <tr>
                 <td>Mr Jonathan</td>
-                <td>Jonathanjotham@gmail.com</td>
+                <td className='d-none d-md-block'>Jonathanjotham@gmail.com</td>
                 <td>090xxxxxxxx</td>
                 <td>ABCD1234</td>
                 </tr>
                 <tr>
                 <td>Juwon Omoboye</td>
-                <td>juwonomoboye@gmail.com</td>
+                <td className='d-none d-md-block'>juwonomoboye@gmail.com</td>
                 <td>080xxxxxxxx</td>
                 <td>ABCD1234</td>
                 </tr>
                 <tr>
                 <td>Tony Njoku</td>
-                <td>Tonynjoku@gmail.com</td>
+                <td className='d-none d-md-block'>Tonynjoku@gmail.com</td>
                 <td>080xxxxxxxx</td>
                 <td>ABCD1234</td>
                 </tr>
