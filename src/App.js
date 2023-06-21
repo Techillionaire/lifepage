@@ -7,6 +7,7 @@ import Team from './Components/Team/Team'
 import { Routes, Route } from 'react-router-dom'
 import Clients from './Components/Clients/Clients'
 import Sales from './Components/Clients/Sales'
+import Commissions from './Components/Commissions/Commissions'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/recruits" element={<Team/>} />
         <Route path="/clients" element={<Clients/>} />
         <Route path="/sales" element={<Sales/>} />
+        <Route path="/commissions" element={<Commissions/>} />
 
 
      </Routes>
