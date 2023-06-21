@@ -5,6 +5,7 @@ import Home from './Components/Home/Home'
 import Products from './Components/Products/Products'
 import Team from './Components/Team/Team'
 import { Routes, Route } from 'react-router-dom'
+import Clients from './Components/Clients/Clients'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/register" element={<Register/>} />
         <Route path="/products" element={<Products/>} />
         <Route path="/recruits" element={<Team/>} />
+        <Route path="/clients" element={<Clients/>} />
 
 
      </Routes>
