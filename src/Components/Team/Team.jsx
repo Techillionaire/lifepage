@@ -1,9 +1,12 @@
 import React from 'react'
 import {FaPlus, FaSearch} from 'react-icons/fa'
 import Pagination from '../Pagination'
+import Navbar from '../Navbar'
 
 const Team = () => {
   return (
+    <>
+        <Navbar/>
     <div className="container">
         
         <div className='my-5'>
@@ -51,6 +54,7 @@ const Team = () => {
         <Pagination/>
         </div>
     </div>
+    </>
   )
 }
 

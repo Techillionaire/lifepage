@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pagination = () => {
   return (
-    <>
+    <div className='fixed-bottom'>
         <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     <li class="page-item">
@@ -20,7 +20,7 @@ const Pagination = () => {
     </li>
   </ul>
 </nav>
-    </>
+    </div>
   )
 }
 
