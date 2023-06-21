@@ -23,12 +23,12 @@ const Commissions = () => {
     <h5 className='my-3' >3 Commissions</h5>
     <table class="table  table-hover table-striped table-light">
         <thead>
-            <tr>
+            <tr className='align-text-top'>
             <th scope="col">Description</th>
             <th scope="col" className='d-none d-md-table-cell'>Name</th>
             <th scope="col" className='d-none d-md-table-cell'>Reference</th>
             <th scope="col" className='d-none d-md-table-cell'>Sale/Payment Value</th>
-            <th scope="col">Commission(-7% Tax)</th>
+            <th scope="col">Commission (-7% Tax)</th>
             <th scope="col">Status</th>
             <th scope="col" className='d-none d-md-table-cell'>Commission Type</th>
             <th scope="col" className='d-none d-md-table-cell'>Date</th>
