@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Almond County",
+        "location": "Mowe, Ogun State",
+        "Price":5000000
+    },
+
+    {
+        "name": "Ashford Layout",
+        "location": "Gwagwalada, Abuja",
+        "Price":3000000
+    },
+
+    {
+        "name": "Almond County",
+        "location": "Mowe, Ogun State",
+        "Price":5000000
+    },
+    
+    {
+        "name": "Richland",
+        "location": "Ketu-Epe, Lagos",
+        "Price":2500000
+    }
+]
